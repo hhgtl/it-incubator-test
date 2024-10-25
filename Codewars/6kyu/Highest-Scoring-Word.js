@@ -29,7 +29,6 @@ function high(x) {
     for (let i = 0; i <= word.length - 1; i++) {
       testHSString.score += alphabetObj[word[i]];
     }
-    console.log(testHSString.score);
     if (testHSString.score > highScoreString.score) {
       highScoreString.string = testHSString.string;
       highScoreString.score = testHSString.score;

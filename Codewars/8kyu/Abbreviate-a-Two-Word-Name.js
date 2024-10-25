@@ -12,7 +12,6 @@
 
 function abbrevName(name) {
   const abbrevArr = name.split(' ');
-  console.log(abbrevArr);
   return `${abbrevArr[0][0].toUpperCase()}.${abbrevArr[1][0].toUpperCase()}`;
 }
 
